@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "first": "node script1.js \"Hello, it`s a first script\"",
+    "second": "node script2.js \"Hello, it`s a second script\"",
+    "third": "node script3.js \"Hello, it`s a third script\"",
+    "createPoem": "node createPoem.js",
+    "removeFiles": "node removeFiles.js",
+    "appendRandom": "node appendRandom.js",
+    "showDir": "node showDir.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.5.0",
+    "figlet": "^1.6.0",
+    "yodasay-extended": "^1.0.1"
+  }
+}
